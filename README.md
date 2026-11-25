@@ -64,5 +64,120 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-UrlChart is a company surfaced via the API Evangelist harvest backlog (source: new-submission) and added to the network as a stub for full-pipeline profiling.
-- https://urlchart.com
+UrlChart provides a Chart Image API compatible with Google Image Charts URLs. It renders legacy chart URLs into PNG images via a simple GET request, supporting multi‑axis charts, thousand‑separator formatting, gradient fills and detailed compatibility reports. The service offers a free tier with 1,000 unique renders per month and paid plans for higher limits, all without requiring an API key for basic use. It aims to help developers migrate away from deprecated Google Image Charts by offering a drop‑in replacement that preserves existing URL parameters.
+
+**Areas:** charts · image-generation · png · legacy-migration · api
+
+## UrlChart on APIs.io
+
+Everything profiled for UrlChart is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/urlchart/](https://apis.io/providers/urlchart/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [UrlChart Chart Image API](https://apis.io/apis/urlchart/urlchart-chart-image-api/) — Render a chart image (PNG) from a GET request using the legacy Google Image Charts parameter set (cht, chs, chd, chxt, chco and related parameters).…
+- [UrlChart API](https://apis.io/apis/urlchart/urlchart-api/) — UrlChart API as documented publicly: 4 operations. Contract generated from the documentation by API Evangelist (2026-11-25); not the provider's own document.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (5)
+
+The data models the API reads and writes.
+
+- [GetApiMeResponse](https://apis.io/schemas/urlchart/urlchart-get-api-me-response/)
+- [GetApiUsageResponse](https://apis.io/schemas/urlchart/urlchart-get-api-usage-response/)
+- [PostChartRequest](https://apis.io/schemas/urlchart/urlchart-post-chart-request/)
+- [PostChartResponse](https://apis.io/schemas/urlchart/urlchart-post-chart-response/)
+- [PostGchartResponse](https://apis.io/schemas/urlchart/urlchart-post-gchart-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Urlchart Context](https://apis.io/jsonld/urlchart/urlchart-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [UrlChart API Rules](https://apis.io/rules/urlchart/urlchart-rules/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [UrlChart Domain Security](https://apis.io/security/urlchart/urlchart-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [UrlChart Plans Pricing](https://apis.io/plans/urlchart/urlchart-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://urlchart.com)
+- [Documentation](https://urlchart.com/apis.json)
+- [Pricing](https://urlchart.com/pricing)
+- [Support](https://urlchart.com/support)
+- [Terms of service](https://urlchart.com/terms)
+- [Privacy policy](https://urlchart.com/privacy)
+
+## API Evangelist rating
+
+**Kin Score 39.0** — thin · rubric 0.28.0 · scored 2026-11-25
+
+| Facet | Score |
+|---|---|
+| Discoverability | 57.1 |
+| Contract quality | 54.0 |
+| Contract governance | 79.1 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 14.3 |
+| Access clarity | 40.9 |
+
+**Agent readiness 22.8** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 12.7** — AI & Biometrics
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/urlchart/](https://apis.io/providers/urlchart/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for UrlChart: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/urlchart/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
